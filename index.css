@@ -1,0 +1,36 @@
+<div class="container">
+    <table>
+        <caption>Input Marks</caption>
+        <tr>
+            <th rowspan="2">Name</th>
+            <th colspan="5">Subjects</th>
+        </tr>
+        <tr>
+            <th>English</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Social</th>
+            <th>Hindi</th>
+        </tr>
+        <tr>
+            <td><input type="text" id="name"></td>
+            <td><input type="text" id="english"></td>
+            <td><input type="text" id="maths"></td>
+            <td><input type="text" id="science"></td>
+            <td><input type="text" id="social"></td>
+            <td><input type="text" id="hindi"></td>
+        </tr>
+        <tr>
+            <th colspan="6"><button class="btn" onclick="addMarksheet()">Add To Table</button></th>
+        </tr>
+    </table>
+    <table id="marksheet">
+        <caption>Student Marksheet</caption>
+        <tr>
+            <th>Name</th>
+            <th>Total</th>
+            <th>Average</th>
+            <th>Pass / Fail</th>
+        </tr>
+    </table>
+</div>
